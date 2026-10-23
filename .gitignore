@@ -1,4 +1,18 @@
+# Local Python environment and caches
 .venv/
-data/raw/sp500_stocks.csv
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+
+# Generated datasets and analysis outputs
+data/processed/
+outputs/
+
+# Local compressed copies
+data/raw/*.zip
+
+# Legacy constituent dataset (not used by the SPX-only project)
+data/raw/sp500_stocks.csv
